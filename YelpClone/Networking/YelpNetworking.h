@@ -7,11 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
-//#import "YelpDataModel.h"
+#import "YelpDataModel.h"
 
 @import CoreLocation;
 
-@class YelpDataModel;
 typedef void (^RestaurantCompletionBlock)(NSArray <YelpDataModel *>* dataModelArray);
 
 NS_ASSUME_NONNULL_BEGIN
